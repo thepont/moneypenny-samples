@@ -14,4 +14,4 @@ after this if the sample server and sample client are launched the two should co
 
 ##Sample Server
 
-The sample server currently connects to the staging database `mongo.dev.bigdatr.xyz` some constants are set at the top of the sample to change this.
+The sample server currently connects to a mongodb running on `localhost` some constants are set at the top of the sample cod that can be used to change this.
