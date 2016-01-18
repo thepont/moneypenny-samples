@@ -14,4 +14,29 @@ after this if the sample server and sample client are launched the two should co
 
 ##Sample Server
 
-The sample server currently connects to a mongodb running on `localhost` some constants are set at the top of the sample cod that can be used to change this.
+###Constants
+
+```
+var MONGO_DB_HOST = 'localhost';
+var MONGO_DB = 'toy_auth_manager_sample';
+var USERNAME = 'jsmith';
+var PASSWORD = 'password';
+```
+
+####MONGO_DB_HOST
+
+The sample server currently connects to a mongodb running on `localhost`, change this to connec the sample code to a separate server.
+
+####MONGO_DB
+
+Database to store records relating to authentication in.
+
+####USERNAME
+
+Our test username that can be use to login to the server.
+
+####PASSWORD
+
+Our test users password that can be used to login to the server.
+
+
