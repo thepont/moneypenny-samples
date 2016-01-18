@@ -1,6 +1,6 @@
 The sample client should be able to connect to the sample server, the following will have to be configured for this to work.
 
-Inside the `oauth_client` collection the following record will have to be added
+Inside the `oauth_client` collection in the servers database the following record will have to be added
 
 ```
 {
@@ -10,7 +10,7 @@ Inside the `oauth_client` collection the following record will have to be added
 }
 ```
 
-after this if the sample server and sample client are launched the two should connect together and you should be able to login with the username "jsmith" and password "password"
+after this if the sample server and sample client are launched the two should connect together and you should be able to login with the username __jsmith__ and password __password__
 
 ##Sample Server
 
